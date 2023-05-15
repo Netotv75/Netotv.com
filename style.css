@@ -1,0 +1,169 @@
+body {
+    font-size: 15pt;
+}
+
+
+
+
+.carousel-container {
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-images {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 300px;
+}
+
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+}
+
+.carousel-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+
+.carousel-container {
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-images {
+  display: flex;
+  width: 300%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slide {
+  width: 33.33%;
+}
+
+.slide img {
+  width: 100%;
+  height: 300px;
+}
+
+.carousel-controls {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.carousel-controls label {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + .carousel-images {
+  transform: translateX(-33.33%);
+}
+
+#slide1:checked ~ .carousel-controls label:nth-child(1),
+#slide2:checked ~ .carousel-controls label:nth-child(2),
+#slide3:checked ~ .carousel-controls label:nth-child(3) {
+  background-color: 
+  
+  
+  
+  
+  
+  
+  .carousel-container {
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-images {
+  display: flex;
+  width: 300%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 300px;
+}
+
+.carousel-controls {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.carousel-controls label {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + .carousel-images {
+  transform: translateX(-33.33%);
+}
+
+#slide1:checked ~ .carousel-controls label:nth-child(1),
+#slide2:checked ~ .carousel-controls label:nth-child(2),
+#slide3:checked ~ .carousel-controls label:nth-child(3) {
+  background-color: limegreen;
+}
+
+
+
+
+.recomendados-container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.recomendados-title {
+  color: limegreen;
+}
+
+.recomendados-list {
+  list-style: none;
+  padding: 0;
+}
+
+.recomendados-item {
+  color: limegreen;
+}

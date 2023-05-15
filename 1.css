@@ -1,0 +1,24 @@
+.barra {
+  background-color: limegreen;
+  padding: 10px;
+}
+
+.barra p {
+  color: white;
+  margin: 0;
+}
+
+
+
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.boton:hover {
+  background-color: #45a049;
+}

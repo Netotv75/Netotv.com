@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Netotv.com</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  </p>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Barra de navegación con botón desplegable</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .navbar {
+      background-color: limegreen;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .navbar-logo img {
+      width: 50px;
+      height: 50px;
+    }
+    
+    .navbar-menu {
+      display: none;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: limegreen;
+    }
+    
+    .navbar-menu li {
+      margin: 0;
+    }
+    
+    .navbar-menu li a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+    }
+    
+    .navbar-button {
+      color: white;
+      background-color: transparent;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="navbar-logo">
+      <img src="20230515_050925.png" alt="Logo">
+    </div>
+    <button class="navbar-button" onclick="toggleMenu()">Menú</button>
+    <ul class="navbar-menu" id="navbarMenu">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="bideo.html">videos</a></li>
+      <li><a href="imágenes.html">imagene</a></li>
+      <li><a href="contacto.html"></a></li>
+    </ul>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      var navbarMenu = document.getElementById("navbarMenu");
+      if (navbarMenu.style.display === "none") {
+        navbarMenu.style.display = "block";
+      } else {
+        navbarMenu.style.display = "none";
+      }
+    }
+  </script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recomendados</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="recomendados-container">
+    <h1 class="recomendados-title">Recomendados</h1>
+    <ul class="1"></ul>
+     
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reproductor de Video HTML5</title>
+</head>
+<body>
+  <video width="320" height="180" controls>
+    <source src="Doki - Diversión(480P).mp4" type="video/mp4">
+    <source src="ruta_del_video.webm" type="video/webm">
+    Tu navegador no soporta la etiqueta de video.
+  </video>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Imagen con tamaño pequeño</title>
+  <style>
+    .imagen-pequena {
+      width: 200px; /* Ajusta el ancho de la imagen */
+      height: auto; /* La altura se ajustará proporcionalmente */
+    }
+  </style>
+</head>
+<body>
+  <img class="imagen-pequena" src="descarga.jpeg" alt="Imagen pequeña">
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Página con créditos</title>
+  <style>
+    .creditos {
+      text-align: center;
+      font-size: 14px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <footer class="creditos">
+    <p>© 2023 Netotv network. Todos los derechos reservaros</p>
+    <p>Diseñado por <a href="">Netotv</a></p>
+  </footer>
+</body>
+</html>
